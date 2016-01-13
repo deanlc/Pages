@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 90%;
+}
+
+.logo {
+    max-width: 200px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -200px;
+    left: 50%;
+    top: 50%;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+    max-width: 40em;
+    padding: 0 1em;
+    
+}
+
+.content_news {
+    margin: auto;
+    text-align: center;
+    max-width: 30em;
+    padding: 0 1em;
+    
+}
+
+.full {
+    height: 90%;
+    
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow : inset 0 0 1em #111; 
+}
+
+#first {
+    background-image: url(https://wallpaperscraft.com/image/tropics_jungle_wood_vegetation_trees_6441_2560x1600.jpg);
+}
+
+#second {
+    background-image: url(http://2.bp.blogspot.com/-Yzq_lMGyOqw/UvglD9A1KtI/AAAAAAAAUNc/a6c6XQvpFmk/s1600/Monkey_4.JPG);
+}
+
+#third {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.jpg);
+}
+
+#fourth {
+    background-image: url(http://i.huffpost.com/gen/1713567/images/o-RHESUS-MONKEY-facebook.jpg);
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#rounded {
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	font-size: 14px;
+	padding: 4px 7px;
+	outline: 0;
+	-webkit-appearance: none;
+}
+#rounded:focus {
+	border-color: #339933;
+}
