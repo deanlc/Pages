@@ -15,6 +15,12 @@ html, body {
     top: 50%;
 }
 
+.company {
+    max-width: 200px;
+    vertical-align: middle;
+    margin: 20px;
+}
+
 .content {
     margin: auto;
     text-align: center;
@@ -26,7 +32,7 @@ html, body {
 .content_news {
     margin: auto;
     text-align: center;
-    max-width: 30em;
+    max-width: 35em;
     padding: 0 1em;
     
 }
@@ -41,19 +47,28 @@ html, body {
 }
 
 #first {
-    background-image: url(https://wallpaperscraft.com/image/tropics_jungle_wood_vegetation_trees_6441_2560x1600.jpg);
+    background-image: url(http://holicoffee.com/wp-content/uploads/2014/06/snow-leopard-nature-life-extreme-photography-true-endangered-species-fact-14.jpg);
 }
 
 #second {
-    background-image: url(http://2.bp.blogspot.com/-Yzq_lMGyOqw/UvglD9A1KtI/AAAAAAAAUNc/a6c6XQvpFmk/s1600/Monkey_4.JPG);
+    background-image: url(http://www.thewildlifeofindia.com/blog/wp-content/uploads/2013/07/snow-leopard-watch.jpg);
 }
 
 #third {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.jpg);
+    background-image: url(http://fullhdpictures.com/wp-content/uploads/2015/03/Snow-Leopard-Full-HD-Wallpapers.jpg);
 }
 
 #fourth {
-    background-image: url(http://i.huffpost.com/gen/1713567/images/o-RHESUS-MONKEY-facebook.jpg);
+    background-image: url(https://7-themes.com/data_images/out/42/6914569-snow-leopard.jpg);
+}
+
+#fifth {
+    background-image: url(http://www.duiops.net/seresvivos/galeria/leopardos/Double%20Trouble,%20Snow%20Leopard%20Cubs.jpg);
+}
+
+#sixth {
+    background-image: url(http://orig05.deviantart.net/de2b/f/2013/296/c/6/help_save_the_snow_leopards__by_xxcloudstarxx-d6rjw6f.jpg);
+    height: 130%;
 }
 
 .myButton {
